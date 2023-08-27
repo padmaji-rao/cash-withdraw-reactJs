@@ -1,0 +1,79 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: #150b3e;
+  padding: 30px;
+  padding-top: 40px;
+  border-radius: 10px;
+}
+.avatar {
+  background-color: #c7d2fe;
+  border-radius: 50%;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  color: #7c3aed;
+}
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  color: #d4d2db;
+  margin-left: 10px;
+}
+.balance-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  min-width: 300px;
+}
+.amount-section {
+  display: flex;
+  flex-direction: column;
+}
+.balance-head {
+  margin-top: 10px;
+  color: #382f5a;
+  font-weight: 600;
+  font-size: 17px;
+}
+.amount-head {
+  color: #d4d2db;
+  font-weight: 900;
+  font-size: 30px;
+}
+.amount-para {
+  color: #382f5a;
+  font-weight: 500;
+  margin-top: 0px;
+  font-size: 12px;
+}
+.withdraw-head {
+  color: #d4d2db;
+  font-size: 20px;
+  font-weight: 900;
+}
+.withdraw-para {
+  color: #382f5a;
+  font-weight: 500;
+}
+.denomination-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
